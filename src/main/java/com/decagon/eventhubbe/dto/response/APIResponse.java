@@ -24,7 +24,6 @@ public class APIResponse<T> {
         this.data = data;
     }
 
-
     // Rest of the class...
 }
 

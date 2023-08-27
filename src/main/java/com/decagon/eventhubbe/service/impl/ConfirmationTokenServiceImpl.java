@@ -18,7 +18,8 @@ import java.util.Date;
 
 @Service
 @RequiredArgsConstructor
-public class ConfirmationTokenServiceImpl implements ConfirmationTokenService {
+public class
+ConfirmationTokenServiceImpl implements ConfirmationTokenService {
 
     private final ConfirmationTokenRepository confirmationTokenRepository;
     private final AppUserRepository appUserRepository;

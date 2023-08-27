@@ -36,8 +36,8 @@ public class AccountController {
 
     @GetMapping("/account")
     @CrossOrigin(origins = "http://localhost:5173")
-    public ResponseEntity<APIResponse<List<?>>> getAccountByUser(){
-        APIResponse<List<?>> apiResponse = new APIResponse<>(accountService.getAccountByLogedInUser());
+    public ResponseEntity<APIResponse<?>> getAccountByUser(){
+        APIResponse<?> apiResponse = new APIResponse<>(accountService.getAccountByLogedInUser());
         return new ResponseEntity<>(apiResponse,HttpStatus.OK);
     }
 
