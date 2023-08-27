@@ -30,7 +30,7 @@ public class SecurityConfig {
                 .csrf()
                 .disable()
                 .authorizeHttpRequests()
-                .requestMatchers("/api/v1/auth/**","/password/**", "/events/view-event/**",
+                .requestMatchers("/api/v1/auth/**", "/password/**", "/events/view-event/**",
                         "/v2/api-docs",
                         "/v3/api-docs",
                         "/v3/api-docs/**",

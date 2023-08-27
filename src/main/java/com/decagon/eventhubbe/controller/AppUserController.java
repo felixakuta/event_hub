@@ -22,5 +22,4 @@ public class AppUserController {
         return new ResponseEntity<>(fileUpload, HttpStatus.OK);
     }
 
-
 }
